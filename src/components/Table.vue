@@ -59,9 +59,9 @@ export default defineComponent({
 		},
 	},
 	mounted() {
-		// this.getUsers();
-		// this.postUsers();
-		// this.deleteUsers();
+		this.getUsers();
+		this.postUsers();
+		this.deleteUsers();
 	},
 	data() {
 		return {
